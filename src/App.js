@@ -3,11 +3,13 @@ import React from 'react';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
+import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
-      <Greet name='Bruce' heroName='batman'>
+      <Message/>
+      {/* <Greet name='Bruce' heroName='batman'>
         <p>This is a children tag</p>
       </Greet>
       <Greet name='live' heroName='spiderman'>
@@ -15,10 +17,10 @@ function App() {
       </Greet>
       <Greet name='melody' heroName='choclate'/>
       {/* class component */}
-      <Welcome name='Bruce' heroName='batman'/>
+      {/* <Welcome name='Bruce' heroName='batman'/>
       <Welcome name='live' heroName='spiderman'/>
       <Welcome name='melody' heroName='choclate'/>
-      <Hello/>
+      <Hello/> */} 
 
       
     </div>
