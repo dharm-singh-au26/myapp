@@ -13,4 +13,4 @@ function InLine() {
   )
 }
 
-export default InLine
+export default InLine 
