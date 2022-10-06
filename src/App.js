@@ -15,11 +15,13 @@ import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
 import InLine from './components/InLine';
 import Form from './components/Form';
+import LifecycleA from './components/LifecycleA';
 
 function App() {
   return (
     <div className="App">
-      <Form/>
+      <LifecycleA/>
+      {/* <Form/> */}
       {/* <InLine/> */}
       {/* <Stylesheet primary={true}/> */}
       {/* <NameList/> */}
