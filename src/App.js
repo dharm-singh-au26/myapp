@@ -22,11 +22,13 @@ import PureComp from './components/PureComp';
 import ParentComp from './components/ParentComp';
 import RefsDemo from './components/RefsDemo';
 import FRParentInput from './components/FRParentInput';
+import PortalDemo from './components/PortalDemo';
 
 function App() {
   return (
     <div className="App">
-      <FRParentInput/>
+      <PortalDemo/>
+      {/* <FRParentInput/> */}
       {/* <RefsDemo/> */}
       {/* <ParentComp/> */}
       {/* <Table/> */}
