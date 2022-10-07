@@ -27,7 +27,7 @@ import PortalDemo from './components/PortalDemo';
 function App() {
   return (
     <div className="App">
-      <PortalDemo/>
+      {/* <PortalDemo/> */}
       {/* <FRParentInput/> */}
       {/* <RefsDemo/> */}
       {/* <ParentComp/> */}
